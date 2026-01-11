@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "585234026632",
+    "project_id": "storycube-e29ad",
+    "storage_bucket": "storycube-e29ad.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:585234026632:android:a661c513a4c2610e494f3d",
+        "android_client_info": {
+          "package_name": "com.example.sembebidos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQY6i9misoXF6sDgsUb89T30pTkTZlO98"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

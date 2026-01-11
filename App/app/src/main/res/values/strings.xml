@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">S.Embebidos</string>
+
+    <!-- Login -->
+    <string name="login_title">Bienvenido a StoryCube</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="register">Registrarse</string>
+    <string name="forgot_password">¿Olvidaste tu contraseña?</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Inicio</string>
+    <string name="nav_biblioteca">Biblioteca</string>
+    <string name="nav_llaveros">Llaveros</string>
+    <string name="nav_historial">Historial</string>
+
+    <!-- Control -->
+    <string name="conectar">Conectar</string>
+    <string name="desconectar">Desconectar</string>
+    <string name="play">Reproducir</string>
+    <string name="pause">Pausar</string>
+    <string name="next">Siguiente</string>
+    <string name="prev">Anterior</string>
+    <string name="volumen">Volumen</string>
+    <string name="brillo">Brillo</string>
+
+    <!-- Modos -->
+    <string name="modo_rfid">RFID</string>
+    <string name="modo_manual">Manual</string>
+    <string name="modo_numeros">Números</string>
+    <string name="modo_colores">Colores</string>
+
+    <!-- MainActivity -->
+    <string name="title_main">StoryCube Control</string>
+    <string name="label_brightness">Brillo</string>
+    <string name="label_volume">Volumen</string>
+    <string name="label_mode">Modo de Operación</string>
+    <string name="btn_change_mode">Cambiar Modo</string>
+    <string name="btn_logout">Cerrar Sesión</string>
+    <string name="brightness_format">%d%%</string>
+    <string name="volume_format">%d%%</string>
+
+    <!-- Mensajes -->
+    <string name="conectando">Conectando...</string>
+    <string name="conectado">Conectado</string>
+    <string name="sin_conexion">Sin conexión</string>
+    <string name="error_conexion">Error al conectar</string>
+    <string name="sesion_cerrada">Sesión cerrada</string>
+    <string name="modo_cambiado">Modo cambiado a: %s</string>
+    <string name="brillo_cambiado">Brillo: %d%%</string>
+    <string name="volumen_cambiado">Volumen: %d%%</string>
+    <string name="error_brillo">Error al cambiar brillo: %s</string>
+    <string name="error_volumen">Error al cambiar volumen: %s</string>
+    <string name="error_modo">Error al cambiar modo: %s</string>
+    <string name="bienvenido">¡Bienvenido!</string>
+    <string name="cuenta_creada">¡Cuenta creada exitosamente!</string>
+    <string name="email_recuperacion">Email de recuperación enviado</string>
+    <string name="error_email_requerido">El email es requerido</string>
+    <string name="error_password_requerido">La contraseña es requerida</string>
+    <string name="error_password_minimo">La contraseña debe tener al menos 6 caracteres</string>
+</resources>

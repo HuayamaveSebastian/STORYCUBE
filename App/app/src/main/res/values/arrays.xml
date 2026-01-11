@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="modes">
+        <item>RFID</item>
+        <item>Manual</item>
+        <item>Números</item>
+        <item>Colores</item>
+    </string-array>
+</resources>

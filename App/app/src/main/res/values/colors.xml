@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Colores principales - Tema profesional para padres -->
+    <color name="primary">#8B0000</color>          <!-- Rojo vino/tinto -->
+    <color name="primary_dark">#660000</color>     <!-- Rojo vino más oscuro -->
+    <color name="accent">#FF5252</color>           <!-- Rojo para alertas -->
+
+    <!-- Backgrounds - Tema gris claro profesional -->
+    <color name="background">#F5F5F5</color>       <!-- Gris muy claro, casi blanco -->
+    <color name="surface">#EEEEEE</color>          <!-- Gris claro -->
+    <color name="card_background">#FFFFFF</color>  <!-- Blanco puro para cards -->
+
+    <!-- Textos -->
+    <color name="text_primary">#1A1A1A</color>    <!-- Gris oscuro/negro para textos -->
+    <color name="text_secondary">#666666</color>  <!-- Gris para textos secundarios -->
+
+    <!-- Colores del StoryCube (sin cambios) -->
+    <color name="color_rojo">#FF0000</color>
+    <color name="color_verde">#00FF00</color>
+    <color name="color_azul">#0000FF</color>
+    <color name="color_amarillo">#FFFF00</color>
+    <color name="color_magenta">#FF00FF</color>
+    <color name="color_cyan">#00FFFF</color>
+
+    <!-- Estados con significado para padres -->
+    <color name="success">#4CAF50</color>          <!-- Verde: Todo bien -->
+    <color name="error">#F44336</color>            <!-- Rojo: Problema -->
+    <color name="warning">#FFC107</color>          <!-- Amarillo: Atención -->
+    <color name="info">#2196F3</color>             <!-- Azul: Información -->
+
+    <!-- Colores específicos para controles -->
+    <color name="btn_play">#4CAF50</color>         <!-- Verde para Play -->
+    <color name="btn_pause">#FFC107</color>        <!-- Amarillo para Pausa -->
+    <color name="btn_next">#2196F3</color>         <!-- Azul para Siguiente -->
+    <color name="btn_previous">#9C27B0</color>     <!-- Púrpura para Anterior -->
+    <color name="btn_volume_up">#FF5722</color>    <!-- Naranja para Subir -->
+    <color name="btn_volume_down">#00BCD4</color>  <!-- Cyan para Bajar -->
+    <color name="btn_brightness">#FDD835</color>  <!-- Amarillo para Brillo -->
+    <color name="btn_logout">#D32F2F</color>       <!-- Rojo oscuro para Logout -->
+
+    <!-- Colores para estado de dispositivo -->
+    <color name="device_online">#4CAF50</color>    <!-- Verde cuando está activo -->
+    <color name="device_offline">#9E9E9E</color>   <!-- Gris cuando está inactivo -->
+    <color name="playing">#4CAF50</color>          <!-- Verde cuando reproduce -->
+    <color name="paused">#FFC107</color>           <!-- Amarillo cuando está pausado -->
+</resources>
