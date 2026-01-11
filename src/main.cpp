@@ -285,13 +285,13 @@ void setup() {
   }
   
   if (WiFi.status() == WL_CONNECTED) {
-    Serial.println("\n✅ WiFi conectado en setup");
+    Serial.println("\n WiFi conectado en setup");
     
     // Activar modo RFID automáticamente si conectó a red normal
     String ssidConectada = WiFi.SSID();
     if (ssidConectada != AP_SSID) {
       modoActual = MODO_RFID;
-      Serial.println("🎯 Modo RFID activado automáticamente (red normal)");
+      Serial.println(" Modo RFID activado automáticamente (red normal)");
       
       // Reproducir sonido de modo RFID
       if (dfplayerReady) {
@@ -334,7 +334,7 @@ if (digitalRead(BTN_PAUSE) == LOW && (millis() - lastPausePress > buttonDelay)) 
     lastPausePress = millis();
     pausarReanudar();
   } else {
-    Serial.println("⚠️ Pausa no disponible en este modo");
+    Serial.println(" Pausa no disponible en este modo");
   }
 }
 
@@ -385,8 +385,8 @@ void configurarWiFi() {
     
   } else {
     // NO HAY CREDENCIALES → MODO ACCESS POINT
-    Serial.println("\n📡 ===== MODO ACCESS POINT (AP) =====");
-    Serial.println("⚠️  No hay red WiFi configurada");
+    Serial.println("\n ===== MODO ACCESS POINT (AP) =====");
+    Serial.println("  No hay red WiFi configurada");
     Serial.println("Creando red de configuración...");
     
     iniciarModoAP();
@@ -417,7 +417,7 @@ void iniciarModoAP() {
     Serial.println(AP_PASSWORD);
     Serial.print("IP del servidor: ");
     Serial.println(IP);
-    Serial.println("\n📱 INSTRUCCIONES PARA CONFIGURAR:");
+    Serial.println("\n INSTRUCCIONES PARA CONFIGURAR:");
     Serial.println("1. Conecta tu teléfono a la red: " + String(AP_SSID));
     Serial.println("2. Abre la app StoryCube");
     Serial.println("3. Ve a Configuración WiFi");
@@ -429,7 +429,7 @@ void iniciarModoAP() {
     mostrarModoConfiguracionConIP();
     
   } else {
-    Serial.println("❌ Error iniciando Access Point");
+    Serial.println(" Error iniciando Access Point");
   }
 }
 void mostrarModoConfiguracionConIP() {
@@ -466,7 +466,7 @@ void monitearWiFi() {
       clienteConectado = false;
       ipYaMostrada = false;
       
-      Serial.println("\n⚠️  Cliente desconectado - mostrando IP nuevamente");
+      Serial.println("\n  Cliente desconectado - mostrando IP nuevamente");
       
       if (WiFi.status() == WL_CONNECTED) {
         mostrarIPEnLED();
@@ -501,11 +501,11 @@ void monitearWiFi() {
       mostrarStoryCube();
       scrollActivo = true;
       
-      // ✅ Cambiar a modo RFID si no estamos en modo AP
+      //  Cambiar a modo RFID si no estamos en modo AP
       if (modoActual != MODO_RFID) {
         modoActual = MODO_RFID;
         modoRFIDAutomatico = true;
-        Serial.println("🎯 Modo RFID activado automáticamente");
+        Serial.println("Modo RFID activado automáticamente");
         
         // Reproducir sonido de modo RFID
         if (dfplayerReady) {
@@ -520,7 +520,7 @@ void monitearWiFi() {
     }
     else if (millis() - wifiConnectStartTime > 30000) {
       wifiConectando = false;
-      Serial.println("\n⚠️  Timeout conectando a WiFi");
+      Serial.println("\n Timeout conectando a WiFi");
       Serial.println("Volviendo a modo Access Point...\n");
       
       iniciarModoAP();
@@ -531,7 +531,7 @@ void monitearWiFi() {
     wifiConectado = false;
     ipYaMostrada = false;
     clienteConectado = false;
-    Serial.println("\n⚠️  WiFi desconectado - intentando reconectar...");
+    Serial.println("\n  WiFi desconectado - intentando reconectar...");
     WiFi.reconnect();
   }
 }
@@ -560,7 +560,7 @@ void mostrarIPEnLED() {
 
 
 void mostrarIPEnConsola() {
-  Serial.println("\n📡 =====================================");
+  Serial.println("\n =====================================");
   Serial.println("   INFORMACIÓN DEL SERVIDOR");
   Serial.println("=====================================");
   Serial.print("IP Local: ");
@@ -613,7 +613,7 @@ bool cargarWiFiDesdeEEPROM(String &ssid, String &password) {
   // Verificar si está configurado
   if (EEPROM.read(EEPROM_CONFIGURED_ADDR) != 1) {
     EEPROM.end();
-    Serial.println("⚠️  WiFi no configurado en EEPROM");
+    Serial.println("  WiFi no configurado en EEPROM");
     return false;
   }
   
@@ -647,16 +647,16 @@ void handlePing() {
     clienteConectado = true;
     ipYaMostrada = true;
     
-    Serial.println("\n✅ ========================================");
-    Serial.println("📱 CLIENTE CONECTADO A LA APP");
-    Serial.println("========================================✅\n");
+    Serial.println("\n ========================================");
+    Serial.println(" CLIENTE CONECTADO A LA APP");
+    Serial.println("========================================\n");
     
     // Cambiar a StoryCube y modo RFID automáticamente
     mostrarStoryCube();
     
     if (modoActual != MODO_RFID) {
       modoActual = MODO_RFID;
-      Serial.println("🎯 Modo RFID activado automáticamente (app conectada)");
+      Serial.println(" Modo RFID activado automáticamente (app conectada)");
       
       if (dfplayerReady) {
         myDFPlayer.play(7);
@@ -772,7 +772,7 @@ void handleWiFiConfig() {
   server.sendHeader("Access-Control-Allow-Origin", "*");
   server.send(200, "application/json", response);
 
-  // ✅ SALIR DEL MODO AP Y REINICIAR
+  // SALIR DEL MODO AP Y REINICIAR
   Serial.println("Saliendo de modo AP...");
   delay(2000);
   
@@ -903,7 +903,7 @@ void handleSetBrightness() {
   // EL POT SE BLOQUEA HASTA QUE SE MUEVA
   potTieneControl = false;
 
-  Serial.println("\n📱 ===== CONTROL DESDE APP =====");
+  Serial.println("\n ===== CONTROL DESDE APP =====");
   Serial.print("   Brillo desde app: ");
   Serial.println(brillo_actual);
   Serial.print("   Pot está en: ");
@@ -1149,7 +1149,7 @@ void leerPotenciometroBrillo() {
     brillo_actual = nuevoBrillo;
     matrix.setBrightness(brillo_actual);
     potTieneControl = true;
-    Serial.print("💡 Potenciómetro inicializado: ");
+    Serial.print(" Potenciómetro inicializado: ");
     Serial.println(nuevoBrillo);
     return;
   }
@@ -1159,11 +1159,11 @@ void leerPotenciometroBrillo() {
     // Solo actualiza si hay cambio significativo (evita ruido)
     if (abs(nuevoBrillo - ultimoValorPotenciometroLeido) >= 3) {
       ultimoValorPotenciometroLeido = nuevoBrillo;
-      ultimoValorPotenciometroAntesDeCambioApp = nuevoBrillo; // 🔑 ACTUALIZA LA REFERENCIA
+      ultimoValorPotenciometroAntesDeCambioApp = nuevoBrillo; // ACTUALIZA LA REFERENCIA
       brillo_actual = nuevoBrillo;
       matrix.setBrightness(brillo_actual);
       
-      Serial.print("🎚️ Pot físico: ");
+      Serial.print("Pot físico: ");
       Serial.println(brillo_actual);
     }
     return;
@@ -1175,17 +1175,17 @@ void leerPotenciometroBrillo() {
   // Si el pot se mueve significativamente, RECUPERA EL CONTROL
   if (diferenciaDelMovimiento >= DIFERENCIA_MINIMA) {
     ultimoValorPotenciometroLeido = nuevoBrillo;
-    ultimoValorPotenciometroAntesDeCambioApp = nuevoBrillo; // 🔑 ACTUALIZA LA REFERENCIA
+    ultimoValorPotenciometroAntesDeCambioApp = nuevoBrillo; //  ACTUALIZA LA REFERENCIA
     brillo_actual = nuevoBrillo;
     matrix.setBrightness(brillo_actual);
-    potTieneControl = true; // 🔓 DESBLOQUEA EL POTENCIÓMETRO
+    potTieneControl = true; //  DESBLOQUEA EL POTENCIÓMETRO
 
     Serial.println("\n🎚️ ===== POT FÍSICO =====");
     Serial.print("   Movimiento detectado: ");
     Serial.print(diferenciaDelMovimiento);
     Serial.print(" → Brillo: ");
     Serial.println(brillo_actual);
-    Serial.println("   🔓 Pot físico ");
+    Serial.println("    Pot físico ");
     Serial.println("=========================================\n");
   }
   // Si no se movió lo suficiente, no hace nada (mantiene el brillo de la app)
@@ -1285,7 +1285,7 @@ void detenerReproduccion() {
   reproduciendo = false;
   esperandoFinAudio = false;
   
-  Serial.println("⏹ Detenido completamente");
+  Serial.println(" Detenido completamente");
   
   detenerScroll();
   mostrarStoryCube();
@@ -1326,7 +1326,7 @@ void modoRFID() {
     rfid.PICC_HaltA();
     rfid.PCD_StopCrypto1();
     lastReadTime = millis();  // Actualizar tiempo para evitar lecturas repetidas
-    return;  // ❌ NO HACER NADA
+    return;  // NO HACER NADA
   }
 
   // ES UN LLAVERO DIFERENTE → PROCESAR
@@ -1370,7 +1370,7 @@ if (pistaSeleccionada != -1) {
     String nombreLlavero = "Llavero " + String(pistaSeleccionada);
     reproducirCuento(pistaSeleccionada, nombreLlavero.c_str());
   } else {
-    Serial.println("⚠️ Llavero no reconocido");
+    Serial.println(" Llavero no reconocido");
   }
 
   rfid.PICC_HaltA();
@@ -1482,13 +1482,13 @@ pista_actual = numero;
     matrix.Color(255, 0, 0)
   };
 
-  // ✅ MOSTRAR TEXTO INMEDIATAMENTE (concurrencia)
+  //  MOSTRAR TEXTO INMEDIATAMENTE (concurrencia)
   if (numero >= 1 && numero <= 6) {
     iniciarScrollTexto(textos[numero - 1], colores[numero - 1]);
     scrollActivo = true;
   }
 
-  // ✅ REPRODUCIR AUDIO EN PARALELO (sin delay)
+  //  REPRODUCIR AUDIO EN PARALELO (sin delay)
   myDFPlayer.play(numero);
   reproduciendo = true;
   esperandoFinAudio = true;
@@ -1497,7 +1497,7 @@ pista_actual = numero;
 // ==================== pausarReanudar() ====================
 void pausarReanudar() {
   if (!dfplayerReady) {
-    Serial.println("❌ DFPlayer no disponible");
+    Serial.println(" DFPlayer no disponible");
     return;
   }
   
@@ -1508,7 +1508,7 @@ void pausarReanudar() {
     reproduciendo = false;
     esperandoFinAudio = false;
     
-    Serial.println("⏸ Pausado");
+    Serial.println("Pausado");
     
     detenerScroll();
     matrix.fillScreen(0);
@@ -1529,7 +1529,7 @@ void pausarReanudar() {
     reproduciendo = true;
     esperandoFinAudio = true;
     
-    Serial.println("▶ Reanudando");
+    Serial.println(" Reanudando");
     
     // Restaurar texto del cuento actual
     if (pista_actual >= 1 && pista_actual <= 6) {
@@ -1726,7 +1726,7 @@ void mostrarColorCompleto(int numeroColor) {
   if (numeroColor >= 1 && numeroColor <= 6) {
     uint32_t color = colores[numeroColor - 1];
     
-    Serial.print("🎨 Color: ");
+    Serial.print("Color: ");
     Serial.println(nombresColores[numeroColor - 1]);
     
     matrix.fillScreen(color);
@@ -1799,4 +1799,5 @@ void verificarFinAudio() {
       }
     }
   }
+
 }
