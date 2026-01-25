@@ -4,9 +4,9 @@
 </p>
 
 ## Tabla de Contenido
-  -[Objetivo](#Objetivo)
-  -[Componentes](#Componentes)
-  -[Esquemático](#Esquemático)
+  - [Objetivo](#Objetivo)
+  - [Componentes](#Componentes)
+  - [Esquemático](#Esquemático)
 ## Objetivo
 El proyecto tiene como finalidad combinar el aprendizaje con la diversión a través de la
 tecnología. Mediante un cubo interactivo educativo, los niños podrán acceder a cuentos
