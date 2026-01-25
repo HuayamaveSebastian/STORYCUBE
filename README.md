@@ -7,7 +7,7 @@
   - [Objetivo](#Objetivo)
   - [Componentes](#Componentes)
   - [Esquemático](#Esquemático)
-  - [Lista de Audios](#ListadeAudios)
+  - [Lista de Audios](#Audios)
   - [Autores](#Autores)
 ## Objetivo
 El proyecto tiene como finalidad combinar el aprendizaje con la diversión a través de la
@@ -36,7 +36,7 @@ estimula la comprensión auditiva, la atención y la imaginación.
   - Consideraciones: Tener en cuenta que en este esquematico se usa el puerto de carga TP4056 y para la implementacion fisica Se uso el modulo de carga SM5308
   el cual funciona con un pulsador, por ende el porque colocamos un pulsador como activador de todo nuestro proyecto.
 
-## Lista de Audios
+## Audios
 En esta sección se explica cómo está organizada la carpeta **"MP3"** de la tarjeta SD utilizada en el módulo **DFPlayer Mini**, donde se almacenan los archivos de audio numerados (001, 002, etc.) y su función  dentro del proyecto.
 
 ## Autores
