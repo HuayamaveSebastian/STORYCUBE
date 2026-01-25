@@ -1322,7 +1322,7 @@ void modoRFID() {
 
   //  SI ES EL MISMO LLAVERO, IGNORAR COMPLETAMENTE
   if (esMismoLlavero) {
-    Serial.println("🔄 Mismo llavero detectado - manteniendo cuento actual");
+    Serial.println(" Mismo llavero detectado - manteniendo cuento actual");
     rfid.PICC_HaltA();
     rfid.PCD_StopCrypto1();
     lastReadTime = millis();  // Actualizar tiempo para evitar lecturas repetidas
@@ -1330,7 +1330,7 @@ void modoRFID() {
   }
 
   // ES UN LLAVERO DIFERENTE → PROCESAR
-  Serial.println("🆕 Llavero diferente detectado - cambiando cuento");
+  Serial.println(" Llavero diferente detectado - cambiando cuento");
   
   // Guardar UID actual para futuras comparaciones
   ultimoUIDSize = rfid.uid.size;
@@ -1419,7 +1419,7 @@ void botonSubirVolumen() {
   if (volumen_actual > VOL_MAX) volumen_actual = VOL_MAX;
   myDFPlayer.volume(volumen_actual);
   
-  Serial.print("🔊 Vol UP: ");
+  Serial.print(" Vol UP: ");
   Serial.println(volumen_actual);
 }
 
@@ -1429,7 +1429,7 @@ void botonBajarVolumen() {
   if (volumen_actual < VOL_MIN) volumen_actual = VOL_MIN;
   myDFPlayer.volume(volumen_actual);
   
-  Serial.print("🔉 Vol DOWN: ");
+  Serial.print(" Vol DOWN: ");
   Serial.println(volumen_actual);
 }
 
@@ -1744,7 +1744,7 @@ void mostrarColorCompleto(int numeroColor) {
 void mostrarStoryCube() {
   detenerScroll();
   
-  Serial.println("📺 StoryCube iniciado");
+  Serial.println("StoryCube iniciado");
   
   uint32_t colorStoryCube = matrix.Color(0, 200, 255);
   iniciarScrollTexto("STORYCUBE", colorStoryCube);
@@ -1778,7 +1778,7 @@ void verificarFinAudio() {
     uint8_t tipo = myDFPlayer.readType();
     
     if (tipo == DFPlayerPlayFinished) {
-      Serial.println("✓ Reproducción completada");
+      Serial.println("Reproducción completada");
       
       reproduciendo = false;
       esperandoFinAudio = false;
@@ -1801,3 +1801,4 @@ void verificarFinAudio() {
   }
 
 }
+
