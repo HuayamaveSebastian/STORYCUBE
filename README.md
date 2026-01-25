@@ -1,4 +1,6 @@
 # STORYCUBE
+<img width="176" height="175" alt="image" src="https://github.com/user-attachments/assets/878f2c8a-2fdd-434f-a7bd-ca78ae12ec95" />
+
 ## Tabla de Contenido
   [Objetivo](#Objetivo)
   [Componentes](#Componentes)
