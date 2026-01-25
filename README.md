@@ -20,8 +20,6 @@ visuales y auditivos. Este dispositivo busca fomentar el hábito de la lectura y
 tecnológica en edades tempranas(niños) convirtiéndose en una herramienta interactiva que
 estimula la comprensión auditiva, la atención y la imaginación.
 
-## Funcionamiento
-
 ## Componentes
    - Placa electrónica ESP32
    - Módulo RFID RC522
@@ -43,7 +41,8 @@ estimula la comprensión auditiva, la atención y la imaginación.
 <p align="center">
 <img width="827" height="517" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
 </p>
-  **Consideraciones:** Tener en cuenta que en este esquemático se utiliza el puerto de carga **TP4056** y que, para la implementación física, se usó el módulo de carga **SM5308**, el cual funciona con un pulsador. Por ende, se colocó un pulsador como activador de todo el proyecto.
+  
+  **Consideraciones:**  Tener en cuenta que en este esquemático se utiliza el puerto de carga **TP4056** y que, para la implementación física, se usó el módulo de carga **SM5308**, el cual funciona con un pulsador. Por ende, se colocó un pulsador como activador de todo el proyecto.
 
 ## Audios
 En esta sección se explica cómo está organizada la carpeta **"MP3"** de la tarjeta SD utilizada en el módulo **DFPlayer Mini**, donde se almacenan los archivos de audio numerados (001, 002, etc.).
@@ -101,9 +100,17 @@ En esta sección se explica cómo está organizada la carpeta **"MP3"** de la ta
 ## Funcionamiento/Uso
 El cubo interactivo cuenta con un boton en parte trasera el cual es el botón de ON/OFF, para encenderlo presionamos una vez y para poder apagarlo cuando ya esta en operacion debemos pulsar 2 veces.
 Al estar activo el cubo tarda un poco en comenzar a operar inmediatamente, ya que esta conectandose a una red wifi o por su defecto, esta creando su propia red Wifi.
+
 Cuando se muestre en la matriz led el mensaje de "STORYCUBE" iniciara directamente con el **MODO RFID** , por ende al colocar los muñequitos en su respectiva posición, reproducira el audio respectivo del cuento. 
-Ahora, si se quiere cambiar del **MODO RFID** a los otros modos, nos apoyamos del teclado Matricial(3x4), nos dirigimos al simbolo "*", el cual al presionar 1 vez, nos cambia al siguiente Modo, el cual es **MODO MANUAL**. 
-En el **MODO MANUAL** 
+Ahora, si se quiere cambiar del **MODO RFID** a los otros modos, nos apoyamos del teclado Matricial(3x4), nos dirigimos al simbolo "*", el cual al presionar 1 vez, nos cambia al siguiente Modo, el cual es **MODO MANUAL** (Sabremos que cambiamos de modo ya que nuestro cubo nos mencionara en que modo estamos). 
+
+En el **MODO MANUAL** podremos elegir el cuento preferido mediante los botones de "Siguiente" y "Atrás". Al tocar por segunda vez el boton "*" del teclado matricial nos dirigimos al siguiente Modo: **MODO NUMEROS**.
+
+En el **MODO NUMEROS** disponemos del Sub-Modo: "Números en Ingles" el cual para poder acceder a este Sub-modo se presiona el boton "#" del teclado Matricial, y para volver a retornar al Sub-modo Español volvemos a presionar de vuelta, dependiendo en que Sub-modo este, al presionar cualquier número del teclado matricial se mostrara en la pantalla el número y a su vez se reproducira el audio repectivo de dicho número. 
+
+Para acceder al **MODO COLORES** presionamos por tercera vez el "*", en este modo tendremos que usar el mismo teclado matricial para mostrarnos los colores en pantalla, estos colores podran ser selccionados presionando los numeros del 1 al 6, al presionar cualquiera de esos numeros, se observara el color en la matriz y a su vez se reproducira un audio diciendo cual es el color. 
+
+Y para finalizar, al presionar por una cuarta vez "*" regresamos al primer modo el **MODO RFID** .
 
 ## Autores
   - Sebastian Huayamave
