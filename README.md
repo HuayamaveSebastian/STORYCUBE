@@ -1,6 +1,6 @@
 # STORYCUBE
 <p align="center">
-<img width="705" height="698" alt="image" src="https://github.com/user-attachments/assets/ced40ae6-289f-4444-ab6e-e3dbbc38597d" />
+<img width="705" height="698" alt="image" src="Imagenes/STORYCUBE" />
 </p>
 
 ## Tabla de Contenido
