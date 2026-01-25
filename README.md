@@ -27,6 +27,9 @@ estimula la comprensión auditiva, la atención y la imaginación.
    - Potenciómetro
    - Modulo SM5308
 ## Esquemático
+<p align="center">
 <img width="827" height="517" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
-
+</p>
+  # Consideraciones: Tener en cuenta que en este esquematico se usa el puerto de carga TP4056 y para la implementacion fisica Se uso el modulo de carga SM5308
+  el cual funciona con un pulsador, por ende el porque colocamos un pulsador como activador de todo nuestro proyecto
 
