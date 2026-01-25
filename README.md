@@ -37,7 +37,7 @@ estimula la comprensión auditiva, la atención y la imaginación.
   el cual funciona con un pulsador, por ende el porque colocamos un pulsador como activador de todo nuestro proyecto.
 
 ## Audios
-En esta sección se explica cómo está organizada la carpeta **"MP3"** de la tarjeta SD utilizada en el módulo **DFPlayer Mini**, donde se almacenan los archivos de audio numerados (001, 002, etc.) y su función  dentro del proyecto.
+En esta sección se explica cómo está organizada la carpeta **"MP3"** de la tarjeta SD utilizada en el módulo **DFPlayer Mini**, donde se almacenan los archivos de audio numerados (001, 002, etc.).
 
   **Cuentos:**
    - 001 - Pinocho
