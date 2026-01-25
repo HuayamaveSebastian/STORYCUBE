@@ -7,7 +7,7 @@
   - [Objetivo](#Objetivo)
   - [Componentes](#Componentes)
   - [Esquemático](#Esquemático)
-  - [Lista de Audios](#Lista de Audios)
+  - [Lista de Audios](#ListadeAudios)
   - [Autores](#Autores)
 ## Objetivo
 El proyecto tiene como finalidad combinar el aprendizaje con la diversión a través de la
