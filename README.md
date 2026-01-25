@@ -24,15 +24,20 @@ estimula la comprensión auditiva, la atención y la imaginación.
 
 ## Componentes
    - Placa electrónica ESP32
-   - Módulo RFID RC522 y su respectivo TAG
+   - Módulo RFID RC522
+   - Llaveros RFID
    - Matriz WS2812B(8x8)
    - DFPlayer MP3 Mini
+   - Micro SD 16GB
    - Teclado de membrana matricial(3x4)
-   - Mini Parlante
-   - Pulsador
+   - Mini Parlante 8 ohmios
+   - Boton Pulsador
+   - Borneras
+   - Espadines macho y hembra
    - Resistencias
-   - Potenciómetro
+   - Potenciómetro 10K
    - Modulo SM5308
+   - Baterias Litio 3.7V Recargables 
      
 ## Esquemático
 <p align="center">
