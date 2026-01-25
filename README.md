@@ -1,6 +1,6 @@
 # STORYCUBE
 <p align="center">
-<img width="705" height="698" alt="image" src="Imagenes/STORYCUBE" />
+<img width="705" height="698" alt="image" src="Imagenes/STORYCUBE.jpg" />
 </p>
 
 ## Tabla de Contenido
