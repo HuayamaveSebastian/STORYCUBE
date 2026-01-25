@@ -5,11 +5,11 @@
 
 ## Tabla de Contenido
   - [Objetivo](#Objetivo)
-  - [Funcionamiento](#Funcionamiento)
   - [Componentes](#Componentes)
   - [Esquemático](#Esquemático)
   - [Lista de Audios](#Audios)
   - [Instalación App](#APP)
+  - [Funcionamiento/Uso](#Funcionamiento/Uso)
   - [Autores](#Autores)
 
 ## Objetivo
@@ -98,6 +98,12 @@ En esta sección se explica cómo está organizada la carpeta **"MP3"** de la ta
 
 ## APP
 
+## Funcionamiento/Uso
+El cubo interactivo cuenta con un boton en parte trasera el cual es el botón de ON/OFF, para encenderlo presionamos una vez y para poder apagarlo cuando ya esta en operacion debemos pulsar 2 veces.
+Al estar activo el cubo tarda un poco en comenzar a operar inmediatamente, ya que esta conectandose a una red wifi o por su defecto, esta creando su propia red Wifi.
+Cuando se muestre en la matriz led el mensaje de "STORYCUBE" iniciara directamente con el **MODO RFID** , por ende al colocar los muñequitos en su respectiva posición, reproducira el audio respectivo del cuento. 
+Ahora, si se quiere cambiar del **MODO RFID** a los otros modos, nos apoyamos del teclado Matricial(3x4), nos dirigimos al simbolo "*", el cual al presionar 1 vez, nos cambia al siguiente Modo, el cual es **MODO MANUAL**. 
+En el **MODO MANUAL** 
 
 ## Autores
   - Sebastian Huayamave
