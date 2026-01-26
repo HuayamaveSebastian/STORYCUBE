@@ -41,9 +41,11 @@ Desarrollar un cubo interactivo educativo que fomente el aprendizaje y la lectur
      
 ## Diagramas
 ### Bloques
+
+
 ### Esquemático
 <p align="center">
-<img width="827" height="517" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
+<img width="627" height="317" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
 </p>
   
   **Consideraciones:**  Tener en cuenta que en este esquemático se utiliza el puerto de carga **TP4056** y que, para la implementación física, se usó el módulo de carga **SM5308**, el cual funciona con un pulsador. Por ende, se colocó un pulsador como activador de todo el proyecto.
