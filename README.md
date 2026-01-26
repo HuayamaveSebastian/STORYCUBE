@@ -4,7 +4,7 @@
 </p>
 
 ## Software
-  - Arduino IDE o PlatformIO
+  - Visual Studio Code con extensión PlatformIO
   - Android Studio (para desarrollo de app)
 
 
