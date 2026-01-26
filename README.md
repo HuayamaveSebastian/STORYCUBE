@@ -41,14 +41,18 @@ Desarrollar un cubo interactivo educativo que fomente el aprendizaje y la lectur
    - Baterias Litio 3.7V Recargables 
      
 ## Diagramas
+
 ### Bloques
 <p align="center">
 </p>
+
 ### Estados
+
 *Revisar*
 <p align="center">
 <img width="614" height="402" alt="image" src="https://github.com/user-attachments/assets/245d8415-36b8-480b-a2d1-1ff906e08ab1" />
 </p>
+
 ### Esquemático
 <p align="center">
 <img width="627" height="317" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
