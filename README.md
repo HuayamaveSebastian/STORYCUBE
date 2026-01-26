@@ -13,6 +13,7 @@
   - [Componentes](#Componentes)
   - [Diagramas](#Diagramas)
       - [Bloques](#Bloques)
+      - [Estados](#Estados)
       - [Esquemático](#Esquemático)
   - [Lista de Audios](#Audios)
   - [Instalación App](#APP)
@@ -42,6 +43,7 @@ Desarrollar un cubo interactivo educativo que fomente el aprendizaje y la lectur
 ## Diagramas
 ### Bloques
 
+### Estados
 
 ### Esquemático
 <p align="center">
