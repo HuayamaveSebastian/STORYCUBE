@@ -11,7 +11,8 @@
 ## Tabla de Contenido
   - [Objetivo](#Objetivo)
   - [Componentes](#Componentes)
-  - [Esquemático](#Esquemático)
+  - [Diagramas](#Diagramas)
+      - [Esquemático](#Esquemático)
   - [Lista de Audios](#Audios)
   - [Instalación App](#APP)
   - [Funcionamiento/Uso](#Funcionamiento/Uso)
@@ -37,7 +38,9 @@ Desarrollar un cubo interactivo educativo que fomente el aprendizaje y la lectur
    - Modulo SM5308
    - Baterias Litio 3.7V Recargables 
      
-## Esquemático
+## Diagramas
+
+### Esquemático
 <p align="center">
 <img width="827" height="517" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
 </p>
