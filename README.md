@@ -44,6 +44,8 @@ Desarrollar un cubo interactivo educativo que fomente el aprendizaje y la lectur
 ### Bloques
 
 ### Estados
+*Revisar* 
+<img width="614" height="402" alt="image" src="https://github.com/user-attachments/assets/245d8415-36b8-480b-a2d1-1ff906e08ab1" />
 
 ### Esquemático
 <p align="center">
