@@ -7,6 +7,8 @@
   - Visual Studio Code con extensión PlatformIO
   - Android Studio (para desarrollo de app)
 
+## Instalación 
+
 
 ## Tabla de Contenido
   - [Objetivo](#Objetivo)
