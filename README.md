@@ -62,24 +62,22 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 ## Carpeta_MP3
 En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjeta SD utilizada en el módulo DFPlayer Mini.
 
-Para ver la lista completa de archivos de audio y su organización, consulta el documento:
+Para ver la lista completa de archivos de audio y su organización, consulta el documento:[Estructura detallada de MP3](./MP3_STRUCTURE.md) 
 
 ## APP
 
 ## Funcionamiento/Uso
-El cubo interactivo cuenta con un boton en parte trasera el cual es el botón de ON/OFF, para encenderlo presionamos una vez y para poder apagarlo cuando ya esta en operacion debemos pulsar 2 veces.
-Al estar activo el cubo tarda un poco en comenzar a operar inmediatamente, ya que esta conectandose a una red wifi o por su defecto, esta creando su propia red Wifi.
+El cubo interactivo cuenta con un botón ON/OFF en la parte trasera. Para encenderlo se presiona una vez y, para apagarlo durante la operación, se presiona dos veces. Al activarse, el cubo tarda unos segundos en iniciar, ya que se conecta a una red WiFi o crea una propia.
 
-Cuando se muestre en la matriz led el mensaje de "STORYCUBE" iniciara directamente con el **MODO RFID** , por ende al colocar los muñequitos en su respectiva posición, reproducira el audio respectivo del cuento. 
-Ahora, si se quiere cambiar del **MODO RFID** a los otros modos, nos apoyamos del teclado Matricial(3x4), nos dirigimos al simbolo "*", el cual al presionar 1 vez, nos cambia al siguiente Modo, el cual es **MODO MANUAL** (Sabremos que cambiamos de modo ya que nuestro cubo nos mencionara en que modo estamos). 
+Al mostrarse el mensaje “STORYCUBE” en la matriz LED, el sistema inicia en MODO RFID, donde al colocar los muñecos en su posición correspondiente se reproduce el audio del cuento.
 
-En el **MODO MANUAL** podremos elegir el cuento preferido mediante los botones de "Siguiente" y "Atrás". Al tocar por segunda vez el boton "*" del teclado matricial nos dirigimos al siguiente Modo: **MODO NUMEROS**.
+El cambio de modos se realiza mediante el teclado matricial (3x4), presionando el símbolo “*”. El segundo modo es el MODO MANUAL, en el cual se seleccionan los cuentos con los botones de “Siguiente” y “Atrás”.
 
-En el **MODO NUMEROS** disponemos del Sub-Modo: "Números en Ingles" el cual para poder acceder a este Sub-modo se presiona el boton "#" del teclado Matricial, y para volver a retornar al Sub-modo Español volvemos a presionar de vuelta, dependiendo en que Sub-modo este, al presionar cualquier número del teclado matricial se mostrara en la pantalla el número y a su vez se reproducira el audio repectivo de dicho número. 
+Al presionar nuevamente “*” se accede al MODO NÚMEROS, que incluye los submodos Español e Inglés, alternables con el botón “#”. Al presionar un número, este se muestra en la matriz LED y se reproduce su audio correspondiente.
 
-Para acceder al **MODO COLORES** presionamos por tercera vez el "*", en este modo tendremos que usar el mismo teclado matricial para mostrarnos los colores en pantalla, estos colores podran ser selccionados presionando los numeros del 1 al 6, al presionar cualquiera de esos numeros, se observara el color en la matriz y a su vez se reproducira un audio diciendo cual es el color. 
+Con una tercera pulsación de “*” se ingresa al MODO COLORES, donde los colores se seleccionan con los números del 1 al 6, mostrando el color y reproduciendo su audio.
 
-Y para finalizar, al presionar por una cuarta vez "*" regresamos al primer modo el **MODO RFID** .
+Finalmente, al presionar “*” por cuarta vez, el sistema regresa al MODO  inicial RFID.
 
 ## Autores
   - Sebastian Huayamave
