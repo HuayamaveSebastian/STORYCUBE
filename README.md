@@ -20,6 +20,8 @@
   - [Estructura de la carpeta MP3](##Carpeta_MP3)
   - [Instalación App](#APP)
   - [Funcionamiento/Uso](#Funcionamiento/Uso)
+      - [Inicio del sistema]
+      - [Cambio de modos]
   - [Autores](#Autores)
 
 ## Objetivo
