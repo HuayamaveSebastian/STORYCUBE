@@ -44,11 +44,10 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 
 ### Bloques
 <p align="center">
+<img width="682" height="192" alt="image" src="https://github.com/user-attachments/assets/4a91cc00-a872-4917-9301-94469883808c" />
 </p>
 
 ### Estados
-
-*Revisar*
 <p align="center">
 <img width="500" height="307" alt="image" src="https://github.com/user-attachments/assets/11372bf9-558b-4379-856e-52c16e529ecf" />
 </p>
