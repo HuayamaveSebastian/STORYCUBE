@@ -66,7 +66,7 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 ## Carpeta_MP3
 En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjeta SD utilizada en el módulo DFPlayer Mini.
 
-Para ver la lista completa de archivos de audio y su organización, consulta el documento:[Estructura detallada de MP3](./MP3_STRUCTURE.md) 
+Para ver la lista completa de archivos de audio y su organización, consulta el documento: [Estructura detallada de MP3](./MP3_STRUCTURE.md) 
 
 ## APP
 - [Descargar la aplicación](./STORYCUBE.apk) - Descarga la app para instalar en tu dispositivo movil. 
