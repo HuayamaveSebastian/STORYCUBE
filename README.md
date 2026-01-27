@@ -3,6 +3,9 @@
 <img width="350" height="298" alt="image" src="Imagenes/STORYCUBE.jpg" />
 </p>
 
+## Objetivo
+Este repositorio tiene los archivos y la información detallada para poder desarrollar un cubo interactivo educativo que fomente el aprendizaje y la lectura en niños mediante tecnología RFID y estímulos visuales y auditivos.
+
 ## Software
   - Visual Studio Code con extensión PlatformIO
   - Android Studio (para desarrollo de app)
@@ -11,7 +14,6 @@
 
 
 ## Tabla de Contenido
-  - [Objetivo](#Objetivo)
   - [Componentes](#Componentes)
   - [Diagramas](#Diagramas)
       - [Bloques](#Bloques)
@@ -24,8 +26,6 @@
       - [Cambio de modos](#)
   - [Autores](#Autores)
 
-## Objetivo
-Este repositorio tiene los archivos y la información detallada para poder desarrollar un cubo interactivo educativo que fomente el aprendizaje y la lectura en niños mediante tecnología RFID y estímulos visuales y auditivos.
 
 ## Componentes
    - Placa electrónica ESP32
