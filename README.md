@@ -50,10 +50,10 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 
 *Revisar*
 <p align="center">
-<img width="614" height="402" alt="image" src="https://github.com/user-attachments/assets/245d8415-36b8-480b-a2d1-1ff906e08ab1" />
+<img width="500" height="307" alt="image" src="https://github.com/user-attachments/assets/11372bf9-558b-4379-856e-52c16e529ecf" />
 </p>
 
-### Esquemático
+### Sistema
 <p align="center">
 <img width="627" height="317" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
 </p>
