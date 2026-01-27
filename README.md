@@ -44,7 +44,7 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 
 ### Bloques
 <p align="center">
-<img width="582" height="392" alt="image" src="https://github.com/user-attachments/assets/4a91cc00-a872-4917-9301-94469883808c" />
+<img width="756" height="378" alt="image" src="https://github.com/user-attachments/assets/2c16c149-39e0-4db7-b904-a33820e4356c" />
 </p>
 
 ### Estados
