@@ -65,7 +65,7 @@ En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjet
 Para ver la lista completa de archivos de audio y su organización, consulta el documento:[Estructura detallada de MP3](./MP3_STRUCTURE.md) 
 
 ## APP
-- [Descargar la aplicación](./app-debug.apk) - Descarga la app para instalar en tu dispositivo movil. 
+- [Descargar la aplicación](./STORYCUBE.apk) - Descarga la app para instalar en tu dispositivo movil. 
 - [Manual de uso](./MANUAL_APPSTORYCUBE.md) - Guía completa sobre cómo utilizar la aplicación
 ## Funcionamiento/Uso
 El cubo interactivo cuenta con un botón ON/OFF en la parte trasera. Para encenderlo se presiona una vez y, para apagarlo durante la operación, se presiona dos veces. Al activarse, el cubo tarda unos segundos en iniciar, ya que se conecta a una red WiFi o crea una propia.
