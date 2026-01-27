@@ -15,7 +15,7 @@
       - [Bloques](#Bloques)
       - [Estados](#Estados)
       - [Esquemático](#Esquemático)
-  - [Lista de Audios](## Estructura de la carpeta MP3)
+  - [Estructura de la carpeta MP3](##Carpeta_MP3)
   - [Instalación App](#APP)
   - [Funcionamiento/Uso](#Funcionamiento/Uso)
   - [Autores](#Autores)
@@ -59,7 +59,7 @@ Este repositorio tiene los archivos y la información detallada para poder desar
   
   **Consideraciones:**  Tener en cuenta que en este esquemático se utiliza el puerto de carga **TP4056**; sin embargo, para la implementación física se empleó el módulo de carga **SM5308**, el cual opera mediante un pulsador. Por esta razón, se incorporó un pulsador como elemento activador de todo el proyecto.
 
-## Estructura de la carpeta MP3
+## Carpeta_MP3
 En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjeta SD utilizada en el módulo DFPlayer Mini.
 Para ver la lista completa de archivos de audio y su organización, consulta el documento:
 
