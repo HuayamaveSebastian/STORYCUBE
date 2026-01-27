@@ -57,7 +57,7 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 <img width="627" height="317" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
 </p>
   
-  **Consideraciones:**  Tener en cuenta que en este esquemático se utiliza el puerto de carga **TP4056** y que, para la implementación física, se usó el módulo de carga **SM5308**, el cual funciona con un pulsador. Por ende, se colocó un pulsador como activador de todo el proyecto.
+  **Consideraciones:**  Tener en cuenta que en este esquemático se utiliza el puerto de carga **TP4056**; sin embargo, para la implementación física se empleó el módulo de carga **SM5308**, el cual opera mediante un pulsador. Por esta razón, se incorporó un pulsador como elemento activador de todo el proyecto.
 
 ## Audios
 En esta sección se explica cómo está organizada la carpeta **"MP3"** de la tarjeta SD utilizada en el módulo **DFPlayer Mini**, donde se almacenan los archivos de audio numerados (001, 002, etc.).
