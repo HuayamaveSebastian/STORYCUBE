@@ -3,7 +3,7 @@
 <img width="350" height="298" alt="image" src="Imagenes/STORYCUBE.jpg" />
 </p>
 
-## Objetivo
+## Introducción
 Este repositorio tiene los archivos y la información detallada para poder desarrollar un cubo interactivo educativo que fomente el aprendizaje y la lectura en niños mediante tecnología RFID y estímulos visuales y auditivos.
 
 ## Software
