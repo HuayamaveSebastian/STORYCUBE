@@ -1,4 +1,5 @@
 En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjeta SD utilizada en el módulo DFPlayer Mini, donde se almacenan los archivos de audio numerados (001, 002, etc.).
+
   **Cuentos:**
    - 001 - Pinocho
    - 002 - Peter Pan
