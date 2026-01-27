@@ -67,18 +67,55 @@ Para ver la lista completa de archivos de audio y su organización, consulta el 
 ## APP
 - [Descargar la aplicación](./STORYCUBE.apk) - Descarga la app para instalar en tu dispositivo movil. 
 - [Manual de uso](./MANUAL_APPSTORYCUBE.md) - Guía completa sobre cómo utilizar la aplicación
-## Funcionamiento/Uso
-El cubo interactivo cuenta con un botón ON/OFF en la parte trasera. Para encenderlo se presiona una vez y, para apagarlo durante la operación, se presiona dos veces. Al activarse, el cubo tarda unos segundos en iniciar, ya que se conecta a una red WiFi o crea una propia.
+  
+## Funcionamiento / Uso
 
-Al mostrarse el mensaje “STORYCUBE” en la matriz LED, el sistema inicia en MODO RFID, donde al colocar los muñecos en su posición correspondiente se reproduce el audio del cuento.
+El cubo interactivo cuenta con un botón **ON/OFF** ubicado en la parte trasera:
 
-El cambio de modos se realiza mediante el teclado matricial (3x4), presionando el símbolo “*”. El segundo modo es el MODO MANUAL, en el cual se seleccionan los cuentos con los botones de “Siguiente” y “Atrás”.
+- **Encendido:** presionar una vez el botón.
+- **Apagado:** presionar dos veces durante la operación.
 
-Al presionar nuevamente “*” se accede al MODO NÚMEROS, que incluye los submodos Español e Inglés, alternables con el botón “#”. Al presionar un número, este se muestra en la matriz LED y se reproduce su audio correspondiente.
+Al encenderse, el dispositivo tarda unos segundos en iniciar, ya que se conecta a una red WiFi guardada, en caso de no encontrar una red despues de unos segundos crea una red.
 
-Con una tercera pulsación de “*” se ingresa al MODO COLORES, donde los colores se seleccionan con los números del 1 al 6, mostrando el color y reproduciendo su audio.
+---
 
-Finalmente, al presionar “*” por cuarta vez, el sistema regresa al MODO  inicial RFID.
+### Inicio del sistema
+
+Cuando aparece el mensaje **“STORYCUBE”** en la matriz LED, el sistema inicia en **MODO RFID**.
+
+En este modo:
+- Al colocar los muñecos RFID en su posición correspondiente, se reproduce automáticamente el audio del cuento asociado.
+
+---
+
+### Cambio de modos
+
+El cambio de modos se realiza mediante el **teclado matricial (3x4)** presionando el símbolo **“*”**.
+
+#### 1️⃣ MODO RFID (modo inicial)
+- Lectura de muñecos RFID.
+- Reproducción automática del cuento correspondiente.
+
+#### 2️⃣ MODO MANUAL
+- Accesible con una pulsación de **“*”**.
+- Permite seleccionar cuentos usando los botones **“Siguiente”** y **“Atrás”**.
+
+#### 3️⃣ MODO NÚMEROS
+- Accesible con una segunda pulsación de **“*”**.
+- Incluye dos submodos:
+  - **Español**
+  - **Inglés**
+- El idioma se cambia presionando **“#”**.
+- Al presionar un número, este se muestra en la matriz LED y se reproduce su audio correspondiente.
+
+#### 4️⃣ MODO COLORES
+- Accesible con una tercera pulsación de **“*”**.
+- Los colores se seleccionan con los números del **1 al 6**.
+- El color seleccionado se muestra en la matriz LED y se reproduce su audio correspondiente.
+
+#### 🔄 Regreso al modo inicial
+- Al presionar **“*”** por cuarta vez, el sistema regresa al **MODO RFID**.
+
 
 ## Autores
   - Sebastian Huayamave
