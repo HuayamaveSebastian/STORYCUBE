@@ -16,7 +16,7 @@
   - [Diagramas](#Diagramas)
       - [Bloques](#Bloques)
       - [Estados](#Estados)
-      - [Esquemático](#Esquemático)
+      - [Sistema en Fritzing](#Sistema)
   - [Estructura de la carpeta MP3](##Carpeta_MP3)
   - [Instalación App](#APP)
   - [Funcionamiento/Uso](#Funcionamiento/Uso)
