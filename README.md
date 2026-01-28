@@ -28,22 +28,37 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 
 
 ## Componentes
-   - Placa electrónica ESP32
-   - Módulo RFID RC522
-   - Llaveros RFID
-   - Matriz WS2812B(8x8)
-   - DFPlayer MP3 Mini
-   - Micro SD 16GB
-   - Teclado de membrana matricial(3x4)
-   - Mini Parlante 8 ohmios
-   - Boton Pulsador
-   - Borneras
-   - Espadines macho y hembra
-   - Resistencias
-   - Potenciómetro 10K
-   - Modulo SM5308
-   - Baterias Litio 3.7V Recargables 
-     
+   - Placa electrónica ESP32 (1 unidad)
+   - Módulo RFID RC522 (1 unidad)
+   - Llaveros RFID (6 Unidades)
+    Va a depender de como se configure el codigo o si se quiere mandar a una escala coleccionable se puede expandir ese número.
+   - Matriz WS2812B(8x8) (1 unidad)
+   - DFPlayer MP3 Mini (1 unidad)
+   - Micro SD 16GB (1 unidad)
+    Si se llegase a extender los cuentos con muñecos coleccionables, la memoria abastecería por el poco espacio que ocupan los audios.
+   - Teclado de membrana matricial(3x4) (1 unidad)
+   - Mini Parlante 8 ohmios (1 unidad)
+    El tamaño del parlante va a variar dependiendo de su calidad por lo que se tiene que tener en cuenta las dimensiones
+   - Boton Pulsador ( 6 unidades)
+     - 3 botones para reanudar, retroceder, pausa
+     - 1 boton para on/off
+     - 2 botones para subir y bajar volumen
+   - Borneras (7 unidades)
+    Exclusivas para los botones y se tomaron en cuenta borneras para que no ocurra falso contacto.
+   - Espadines macho y hembra (variable)
+     - 2 espadines macho y hembra para conexiones entre el SM5308 Y PCB.
+     - 3 espadines macho y hembra para conexiones entre matriz Led y PCB.
+     - 7 espadines macho y hembra para conexiones entre el teclado 3x4 y PCB.
+     - 8 espadines macho y hembra para conexiones entre RFID y PCB.
+      - Resistencias (4 unidades)
+     - Por composición de la PCB sirven para mejorar la calidad de audio y para conectar componentes. 
+   - Potenciómetro 10K (1 unidad)
+     - Exclusivo para el brillo de la pantalla.
+   - Modulo SM5308 (1 unidad)
+     - Unidad de carga conectado a su boton pulsador para manejo de on/off. 
+   - Baterias Litio 3.7V Recargables (2 unidades)
+    Conectadas al modulo SM5308 en paralelo para sumar su corriente y mantener el voltaje en 3.7V.
+> Los espadines se pueden obviar junto con las borneras, se puede soldar directamente a la placa PCB, así se reduce el grosor de la placa PCB y abatar costos junto con espacio.
 ## Diagramas
 
 ### Bloques
