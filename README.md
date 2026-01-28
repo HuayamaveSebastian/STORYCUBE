@@ -80,7 +80,7 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 
 ### PCB
 <p align="center">
-<img width="627" height="317" alt="image" src="Imagenes/PCB.png" />
+<img width="200" height="600" alt="image" src="Imagenes/PCB.png" />
 </p>
 
 > *Nota: El diseño de la PCB es variable y puede miniaturizarse en caso de requerir un sistema más compacto o una producción a mayor escala.*
