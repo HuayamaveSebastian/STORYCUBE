@@ -63,20 +63,27 @@ Este repositorio tiene los archivos y la información detallada para poder desar
 
 ### Bloques
 <p align="center">
-<img width="656" height="378" alt="image" src="https://github.com/user-attachments/assets/2c16c149-39e0-4db7-b904-a33820e4356c" />
+<img width="656" height="378" alt="image" src="Imagenes/Diagrama de bloques.png" />
 </p>
 
 ### Estados
 <p align="center">
-<img width="500" height="307" alt="image" src="https://github.com/user-attachments/assets/11372bf9-558b-4379-856e-52c16e529ecf" />
+<img width="500" height="307" alt="image" src="Imagenes/Diagrama de estados.png" />
 </p>
 
 ### Sistema
 <p align="center">
-<img width="627" height="317" alt="image" src="https://github.com/user-attachments/assets/4d95cc4e-7ee7-4667-ac1f-76abca1f6e49" />
+<img width="627" height="317" alt="image" src="Imagenes/Sistema.png" />
 </p>
-  
-  **Consideraciones:**  Tener en cuenta que en este esquemático se utiliza el puerto de carga **TP4056**; sin embargo, para la implementación física se empleó el módulo de carga **SM5308**, el cual opera mediante un pulsador. Por esta razón, se incorporó un pulsador como elemento activador de todo el proyecto.
+
+> *Consideracion: En el esquemático se utiliza el puerto de carga **TP4056**; sin embargo, para la implementación física se empleó el módulo de carga **SM5308**, el cual opera mediante un pulsador. Por esta razón, se incorporó un pulsador como elemento activador de todo el proyecto.
+
+### PCB
+<p align="center">
+<img width="627" height="317" alt="image" src="Imagenes/PCB.png" />
+</p>
+
+> *Nota: El diseño de la PCB es variable y puede miniaturizarse en caso de requerir un sistema más compacto o una producción a mayor escala.*
 
 ## Carpeta_MP3
 En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjeta SD utilizada en el módulo DFPlayer Mini.
