@@ -19,11 +19,13 @@ Este repositorio tiene los archivos y la información detallada para poder desar
       - [Bloques](#Bloques)
       - [Estados](#Estados)
       - [Sistema en Fritzing](#Sistema)
+      - [Placa PCB](#PCB)
   - [Estructura de la carpeta MP3](##Carpeta_MP3)
   - [Instalación App](#APP)
   - [Funcionamiento/Uso](#Funcionamiento/Uso)
       - [Inicio del sistema](#)
       - [Cambio de modos](#)
+  - [Mejoras](#Mejoras)
   - [Autores](#Autores)
 
 
@@ -116,7 +118,7 @@ Para ver la lista completa de archivos de audio y su organización, consulta el 
 - **MODO COLORES:** Selecciona colores del 1 al 6 para escuchar su audio
 - Presiona "*" nuevamente para volver al MODO RFID
   
-## Mejoras a considerar
+## Mejoras
 
 - La calidad de los muñecos tiene que ser resistente a caidas.
 - La PCB puede ocupar menos espacio para todos los componentes si se quitan las borneras y los espadines.
