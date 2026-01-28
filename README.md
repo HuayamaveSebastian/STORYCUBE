@@ -50,8 +50,9 @@ Este repositorio tiene los archivos y la información detallada para poder desar
      - 3 espadines macho y hembra para conexiones entre matriz Led y PCB.
      - 7 espadines macho y hembra para conexiones entre el teclado 3x4 y PCB.
      - 8 espadines macho y hembra para conexiones entre RFID y PCB.
-      - Resistencias (4 unidades)
-     - Por composición de la PCB sirven para mejorar la calidad de audio y para conectar componentes. 
+   - Resistencias (6 unidades)
+     - 4 resistencias para los botones
+     - 2 resistencias para conexion con otros elementos por tema de pistas.
    - Potenciómetro 10K (1 unidad)
      - Exclusivo para el brillo de la pantalla.
    - Modulo SM5308 (1 unidad)
@@ -114,6 +115,17 @@ Para ver la lista completa de archivos de audio y su organización, consulta el 
 - **MODO NÚMEROS:** Presiona números para escuchar su audio. Cambia idioma (español/inglés) con "#"
 - **MODO COLORES:** Selecciona colores del 1 al 6 para escuchar su audio
 - Presiona "*" nuevamente para volver al MODO RFID
+  
+## Mejoras a considerar
+
+- La calidad de los muñecos tiene que ser resistente a caidas.
+- La PCB puede ocupar menos espacio para todos los componentes si se quitan las borneras y los espadines.
+- Se puede separar la sección de botones de la placa principal en otra pequeña placa para los botones que se encuentran relacionados como pausa y avanzar cuento.
+- Reducción de dimensiones respetando las dimensiones de la matriz led y los botones.
+- Sección para amplificación y calidad del sonido del parlante.
+- Imanes pequeños o sistema de retención del muñeco con tecnología RFID.
+- Gran número de cuentos disponibles para extensión a muñecos coleccionables.
+
 
 ## Autores
   - Sebastian Huayamave
