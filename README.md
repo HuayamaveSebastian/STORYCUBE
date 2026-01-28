@@ -69,6 +69,7 @@ En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjet
 Para ver la lista completa de archivos de audio y su organización, consulta el documento: [Estructura detallada de MP3](./MP3_STRUCTURE.md) 
 
 ## APP
+- [Instalación del makefile](./CODIGO ESP32/Makefile) - Descarga el makefile para la instalación del código fuente. 
 - [Descargar la aplicación](./STORYCUBE.apk) - Descarga la app para instalar en tu dispositivo movil. 
 - [Manual de uso](./MANUAL_APPSTORYCUBE.md) - Guía completa sobre cómo utilizar la aplicación
   
