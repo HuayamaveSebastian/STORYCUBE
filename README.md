@@ -11,7 +11,7 @@ Este repositorio tiene los archivos y la información detallada para poder desar
   - Android Studio (para desarrollo de app)
 
 ## Instalación 
-
+- [Instalación del makefile](./Makefile) - Permite compilar el proyecto desde su código fuente en caso de que se desee replicar o modificar el sistema.
 
 ## Tabla de Contenido
   - [Componentes](#Componentes)
@@ -69,7 +69,6 @@ En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjet
 Para ver la lista completa de archivos de audio y su organización, consulta el documento: [Estructura detallada de MP3](./MP3_STRUCTURE.md) 
 
 ## APP
-- [Instalación del makefile](./Makefile) - Descarga el makefile para la instalación del código fuente. 
 - [Descargar la aplicación](./STORYCUBE.apk) - Descarga la app para instalar en tu dispositivo movil. 
 - [Manual de uso](./MANUAL_APPSTORYCUBE.md) - Guía completa sobre cómo utilizar la aplicación
   
