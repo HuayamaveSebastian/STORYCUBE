@@ -91,8 +91,15 @@ En esta sección se explica cómo está organizada la carpeta "MP3" de la tarjet
 Para ver la lista completa de archivos de audio y su organización, consulta el documento: [Estructura detallada de MP3](./MP3_STRUCTURE.md) 
 
 ## APP
+- La app se encuentra diseñada completamente en android Studio 2025.2.2.
+- [Descargar el entorno](./APP.apk) La carpeta App se encuentra totalmente lista para abrirse en android Studio.
+- En caso de que se desee solamente los layouts y .java dirigirse a:
+  - [.java](./App/app/src/main/java/com/example/sembebidos) Constant y Main
+  - [.java](./App/app/src/main/java/com/example/sembebidos/ui/Activitiess) Login, settings y wifiSetup
+  - [.java](./App/app/src/main/java/com/example/sembebidos/network) Conexiones con ESP32
+  - [Layouts](./App/app/src/main) Todo lo que se encuentra en esa carpeta es esencial para la vista de la App.
 - [Descargar la aplicación](./STORYCUBE.apk) - Descarga la app para instalar en tu dispositivo movil. 
-- [Manual de uso](./MANUAL_APPSTORYCUBE.md) - Guía completa sobre cómo utilizar la aplicación
+- [Manual de uso](./MANUAL_APPSTORYCUBE.md) - Guía completa sobre cómo utilizar la aplicación.
   
 ## Funcionamiento / Uso
 
